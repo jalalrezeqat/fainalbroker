@@ -210,7 +210,7 @@
 				<div class="col-lg-2 col-sm-6 col-5 remove-padding">
 					<div class="logo">
 						<a href="{{ route('front.index') }}">
-							<img src="{{asset('assets/images/'.$gs->logo)}}" alt="">
+							<img src="{{asset('../../../assets/images/'.$gs->invoice_logo)}}" alt="">
 						</a>
 					</div>
 				</div>
