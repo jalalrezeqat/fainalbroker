@@ -601,15 +601,15 @@ class FrontendController extends Controller
 // -------------------------------- PRINT SECTION ----------------------------------------
  
  
-function finalize(){
-   $actual_path = str_replace('project','',base_path());
-   $dir = $actual_path.'install';
-   if(is_dir($dir)){
-       $this->deleteDir($dir);
-   }
+// function finalize(){
+//    $actual_path = str_replace('project','',base_path());
+//    $dir = $actual_path.'install';
+//    if(is_dir($dir)){
+//        $this->deleteDir($dir);
+//    }
  
-   return redirect('/');
-}
+//    return redirect('/');
+// }
  
 function auth_guests(){
    header("Location: " . url('/'));
